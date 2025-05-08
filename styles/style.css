@@ -1,0 +1,48 @@
+body {
+    background-image: url('../img/netflix-lights.jpg');
+}
+
+.cabecalho {
+    background-color: red;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+}
+
+a {
+    font-size: 1.3em;
+    color: black;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+}
+
+.imagem {
+    width: 200px;
+    height: 300px;
+}
+
+.imagem:hover {
+    width: 220px;
+    height: 320px;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 0, 0.5);
+    transition: .5s;
+}
